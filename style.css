@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.content{
+display:flex;
+padding:50px 300px 50px 300px;
+font-family: 'Open Sans', sans-serif;
+}
+.sidebar{
+background-color:#2de3b1;
+padding:10px;
+color:white;
+width:80vw;
+}
+.sidebar li{
+list-style-type:none;
+padding:10px;
+
+}
+a{
+text-decoration:none;
+color:white;
+}
+a:hover{
+color:#7ab1e1;
+}
+.intro{
+font-weight:bold;
+}
+form{
+background-color:#def5de;
+padding:12px 15px;
+}
+#name{
+margin:0 2px;
+width:25vh;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+.star{
+color:red;
+border:none;
+}
+input[type=email]{
+width:58vh;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+select{
+width:74vh;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+textarea{
+width:70vh;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+input[type=submit]{
+padding:12px;
+background-color:#2de3b1;
+border-radius:5px;
+border:none;
+width:70vh;
+color:white;
+font-weight:bold;
+font-size:17px;
+border-radius:8px;
+}
+input[type=submit]:hover{
+cursor:pointer;
+background-color:#94bfb396;
+}
